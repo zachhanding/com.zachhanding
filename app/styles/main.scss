@@ -189,14 +189,14 @@ main {
           transition: transform 0.3s ease-out;
 }
 
-.navdrawer-container h4,
+.navdrawer-container p.nav-title,
 .navdrawer-container ul li a {
   height: 60px;
   padding: 17px 20px;
   line-height: 1.4;
 }
 
-.navdrawer-container h4 {
+.navdrawer-container p.nav-title {
   background-color: white;
   color: $colorText;
 }
@@ -314,7 +314,7 @@ main {
     overflow-y: auto;
   }
 
-  .navdrawer-container h4 {
+  .navdrawer-container p.nav-title {
     display: none;
   }
 
