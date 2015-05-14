@@ -55,8 +55,9 @@ $(function() {
       var target = $(this.hash);
       target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
       if (target.length) {
+				var mobileOffset = (window.innerWidth < 990) ? -60 : 0;
         $('html,body').animate({
-          scrollTop: target.offset().top
+          scrollTop: target.offset().top + mobileOffset
         }, 600);
         return false;
       }
